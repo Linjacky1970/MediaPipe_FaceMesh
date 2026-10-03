@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments and local environment files
+.venv/
+.env
+.env.*
+!.env.example
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated analysis output
+outputs/*
+!outputs/.gitkeep
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
